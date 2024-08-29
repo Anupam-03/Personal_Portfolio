@@ -12,17 +12,17 @@
 }
 
 :root {
-    --bg-color: rgba(52, 152, 234, 0.89);
-    --secound-bg-color: rgb(52, 152, 234);
-    --text-color: black;
-    --main-color: hsl(0, 0%, 0%);
-}
-
-body.darkmode {
     --bg-color: #150829;
     --secound-bg-color: #1c1142;
     --text-color: aliceblue;
     --main-color: hsl(251, 80%, 86%);
+}
+
+body.lightmode {
+    --bg-color: rgba(52, 152, 234, 0.89);
+    --secound-bg-color: rgb(52, 152, 234);
+    --text-color: black;
+    --main-color: hsl(0, 0%, 18%);
 }
 
 html {
